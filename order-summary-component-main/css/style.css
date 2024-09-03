@@ -1,0 +1,101 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f4ff;
+
+  background-image: url("/pattern-background-desktop.svg");
+  height: 900px;
+
+  background-position: center;
+
+  background-size: 10000px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* img {
+  width: 800px;
+} */
+
+.box {
+  background-color: white;
+
+  border-radius: 10px;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  padding: 20px;
+  text-align: center;
+}
+
+.box-header {
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+  margin: 0 0 10px;
+}
+
+p {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.order-plan {
+  background-color: #f8f9fd;
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.plan-info {
+  text-align: left;
+}
+
+.plan-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.plan-price {
+  color: #666;
+}
+
+.change-plan {
+  color: #1d72b8;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.proceed-button {
+  background-color: #1d72b8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.cancel-button {
+  background-color: transparent;
+  color: #666;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+}
